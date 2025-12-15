@@ -1,0 +1,74 @@
+[user@archlinux hw1]$ cat in.txt
+123243
+
+
+
+
+
+
+
+
+2432345
+
+3254235
+23124352
+
+
+
+
+2353245
+
+
+23423
+[user@archlinux hw1]$ ./tail.py in.txt
+3254235
+23124352
+
+
+
+
+2353245
+
+
+23423
+[user@archlinux hw1]$ ./tail.py in.txt in2.txt
+==> in.txt <==
+3254235
+23124352
+
+
+
+
+2353245
+
+
+23423
+==> in2.txt <==
+fsadsdafsadfasdf
+
+
+
+asdfsadfsadf
+
+sdafsadfsadsadf
+sdafsadfsadsadf
+
+asdfsdaf
+[user@archlinux hw1]$ cat in.txt | ./tail.py
+
+
+
+
+
+2432345
+
+3254235
+23124352
+
+
+
+
+2353245
+
+
+23423

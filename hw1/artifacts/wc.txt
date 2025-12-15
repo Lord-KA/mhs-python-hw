@@ -1,0 +1,10 @@
+[user@archlinux hw1]$ ./wc.py nl.py tail.py 
+  19  39 294 nl.py
+  27  63 539 tail.py
+  46 102 833 total
+[user@archlinux hw1]$ wc nl.py tail.py 
+ 19  39 294 nl.py
+ 27  63 539 tail.py
+ 46 102 833 total
+[user@archlinux hw1]$ cat nl.py | ./wc.py 
+  19  39 294

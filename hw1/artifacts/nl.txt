@@ -1,0 +1,28 @@
+[user@archlinux hw1]$ cat in.txt 
+abc
+def
+
+aaaa
+[user@archlinux hw1]$ ./nl.py in.txt 
+1: abc
+2: def
+3: 
+4: aaaa
+[user@archlinux hw1]$ ./nl.py > out.txt
+first line
+
+
+
+second line
+
+third line
+[user@archlinux hw1]$ cat out.txt
+1: first line
+2: 
+3: 
+4: 
+5: second line
+6: 
+7: third line
+[user@archlinux hw1]$ ./nl.py in.txt in2.txt
+usage: nl.py filename
