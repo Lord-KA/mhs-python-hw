@@ -1,0 +1,3 @@
+sync:           14.460 s
+threading:      12.985 s
+multiprocessing:2.855 s
